@@ -1,0 +1,6 @@
+{
+  "name": "CareCall - AI Voice Receptionist for Clinics",
+  "description": "AI-powered virtual receptionist for hospitals and clinics. Handles 24/7 patient voice calls, doctor availability, appointment bookings, automated reminders, and multilingual triage.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

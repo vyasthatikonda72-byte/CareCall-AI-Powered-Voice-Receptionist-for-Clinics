@@ -1,0 +1,739 @@
+{
+  "departments": [
+    {
+      "id": "dept-cardio",
+      "name": "Cardiology",
+      "icon": "Heart",
+      "description": "Comprehensive heart care, ECG, echocardiography, and hypertension management.",
+      "floor": "Floor 2, Wing A",
+      "activeDoctorsCount": 2
+    },
+    {
+      "id": "dept-derma",
+      "name": "Dermatology",
+      "icon": "Sparkles",
+      "description": "Advanced skin, hair, allergy treatment, and clinical cosmetology.",
+      "floor": "Floor 1, Wing B",
+      "activeDoctorsCount": 2
+    },
+    {
+      "id": "dept-pedia",
+      "name": "Pediatrics",
+      "icon": "Baby",
+      "description": "Child wellness, vaccinations, pediatric infectious diseases, and growth tracking.",
+      "floor": "Floor 1, Wing A",
+      "activeDoctorsCount": 1
+    },
+    {
+      "id": "dept-ortho",
+      "name": "Orthopedics",
+      "icon": "Bone",
+      "description": "Joint pain, sports injury rehabilitation, fracture care, and arthritis therapy.",
+      "floor": "Floor 3, Wing B",
+      "activeDoctorsCount": 1
+    },
+    {
+      "id": "dept-genmed",
+      "name": "General Medicine",
+      "icon": "Stethoscope",
+      "description": "Primary care, fever clinic, diabetes control, preventive health checkups.",
+      "floor": "Floor 1, Wing C",
+      "activeDoctorsCount": 2
+    },
+    {
+      "id": "dept-ent",
+      "name": "ENT (Ear, Nose & Throat)",
+      "icon": "Ear",
+      "description": "Sinusitis, hearing assessments, tonsillitis, and endoscopic ENT diagnostics.",
+      "floor": "Floor 2, Wing C",
+      "activeDoctorsCount": 1
+    }
+  ],
+  "doctors": [
+    {
+      "id": "doc-priya-sharma",
+      "name": "Dr. Priya Sharma",
+      "departmentId": "dept-derma",
+      "departmentName": "Dermatology",
+      "specialization": "Consultant Dermatologist & Trichologist",
+      "experienceYears": 11,
+      "avatar": "https://images.unsplash.com/photo-1594824813634-938743ef6d1a?auto=format&fit=crop&w=400&q=80",
+      "qualification": "MD, DNB (Dermatology) - AIIMS",
+      "consultationFee": 700,
+      "availableDays": [
+        "Mon",
+        "Tue",
+        "Wed",
+        "Thu",
+        "Fri",
+        "Sat"
+      ],
+      "availableSlots": [
+        "09:30 AM",
+        "11:00 AM",
+        "02:30 PM",
+        "04:00 PM",
+        "05:30 PM",
+        "06:30 PM"
+      ],
+      "status": "available",
+      "roomNumber": "OPD 104",
+      "languages": [
+        "English",
+        "Hindi",
+        "Telugu"
+      ],
+      "bio": "Specialist in adult and pediatric skin conditions, acne scarring, and hair restoration."
+    },
+    {
+      "id": "doc-rajesh-varma",
+      "name": "Dr. Rajesh Varma",
+      "departmentId": "dept-cardio",
+      "departmentName": "Cardiology",
+      "specialization": "Senior Interventional Cardiologist",
+      "experienceYears": 18,
+      "avatar": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=400&q=80",
+      "qualification": "DM (Cardiology), FACC",
+      "consultationFee": 1000,
+      "availableDays": [
+        "Mon",
+        "Wed",
+        "Fri",
+        "Sat"
+      ],
+      "availableSlots": [
+        "10:00 AM",
+        "11:30 AM",
+        "03:00 PM",
+        "04:30 PM",
+        "06:00 PM"
+      ],
+      "status": "available",
+      "roomNumber": "OPD 201",
+      "languages": [
+        "English",
+        "Telugu",
+        "Hindi"
+      ],
+      "bio": "Renowned heart specialist focusing on preventive cardiology and rhythm management."
+    },
+    {
+      "id": "doc-ananya-reddy",
+      "name": "Dr. Ananya Reddy",
+      "departmentId": "dept-pedia",
+      "departmentName": "Pediatrics",
+      "specialization": "Child Specialist & Neonatologist",
+      "experienceYears": 9,
+      "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=400&q=80",
+      "qualification": "MD (Pediatrics), DCH",
+      "consultationFee": 600,
+      "availableDays": [
+        "Mon",
+        "Tue",
+        "Wed",
+        "Thu",
+        "Fri",
+        "Sat"
+      ],
+      "availableSlots": [
+        "09:00 AM",
+        "10:30 AM",
+        "12:00 PM",
+        "04:00 PM",
+        "05:30 PM"
+      ],
+      "status": "available",
+      "roomNumber": "OPD 108",
+      "languages": [
+        "English",
+        "Telugu",
+        "Hindi"
+      ],
+      "bio": "Gentle and experienced pediatrician dedicated to infant care and developmental screening."
+    },
+    {
+      "id": "doc-vikram-singh",
+      "name": "Dr. Vikram Singh",
+      "departmentId": "dept-ortho",
+      "departmentName": "Orthopedics",
+      "specialization": "Orthopedic & Joint Replacement Surgeon",
+      "experienceYears": 15,
+      "avatar": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=400&q=80",
+      "qualification": "MS (Ortho), MCh (Joint Surgery)",
+      "consultationFee": 850,
+      "availableDays": [
+        "Tue",
+        "Thu",
+        "Fri",
+        "Sat"
+      ],
+      "availableSlots": [
+        "10:30 AM",
+        "12:00 PM",
+        "03:30 PM",
+        "05:00 PM",
+        "06:30 PM"
+      ],
+      "status": "available",
+      "roomNumber": "OPD 302",
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+      "bio": "Expert in sports injuries, knee arthroscopy, minimally invasive fracture stabilization."
+    },
+    {
+      "id": "doc-sunita-rao",
+      "name": "Dr. Sunita Rao",
+      "departmentId": "dept-genmed",
+      "departmentName": "General Medicine",
+      "specialization": "Senior Physician & Diabetologist",
+      "experienceYears": 20,
+      "avatar": "https://images.unsplash.com/photo-1651008376811-b90baee60c1f?auto=format&fit=crop&w=400&q=80",
+      "qualification": "MD (General Medicine)",
+      "consultationFee": 500,
+      "availableDays": [
+        "Mon",
+        "Tue",
+        "Wed",
+        "Thu",
+        "Fri",
+        "Sat"
+      ],
+      "availableSlots": [
+        "08:30 AM",
+        "10:00 AM",
+        "11:30 AM",
+        "02:00 PM",
+        "03:30 PM",
+        "05:00 PM"
+      ],
+      "status": "available",
+      "roomNumber": "OPD 102",
+      "languages": [
+        "English",
+        "Telugu",
+        "Hindi"
+      ],
+      "bio": "Comprehensive diagnostic medicine with focus on chronic metabolic conditions and geriatrics."
+    },
+    {
+      "id": "doc-arjun-nair",
+      "name": "Dr. Arjun Nair",
+      "departmentId": "dept-ent",
+      "departmentName": "ENT",
+      "specialization": "Otolaryngologist & Head-Neck Specialist",
+      "experienceYears": 12,
+      "avatar": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=400&q=80",
+      "qualification": "MS (ENT), DLO",
+      "consultationFee": 650,
+      "availableDays": [
+        "Mon",
+        "Wed",
+        "Thu",
+        "Fri"
+      ],
+      "availableSlots": [
+        "10:00 AM",
+        "11:30 AM",
+        "03:00 PM",
+        "04:30 PM",
+        "06:00 PM"
+      ],
+      "status": "in_consultation",
+      "roomNumber": "OPD 204",
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+      "bio": "Expertise in chronic sinusitis, allergic rhinitis, micro-ear surgery, and vocal cord care."
+    }
+  ],
+  "appointments": [
+    {
+      "patientName": "Caller Patient",
+      "patientPhone": "+91 98765 43210",
+      "patientEmail": "",
+      "doctorId": "doc-priya-sharma",
+      "doctorName": "Dr. Priya Sharma",
+      "department": "Dermatology",
+      "date": "2026-10-30",
+      "timeSlot": "05:30 PM",
+      "status": "confirmed",
+      "type": "in_person",
+      "notes": "Booked via AI Voice Receptionist voice dialogue",
+      "bookedVia": "ai_voice",
+      "id": "CC-2026-9937",
+      "createdAt": "2026-10-30T09:41:31.881Z"
+    },
+    {
+      "id": "CC-2026-101",
+      "patientName": "Rohan Mehra",
+      "patientPhone": "+91 98490 12345",
+      "patientEmail": "rohan.mehra@gmail.com",
+      "doctorId": "doc-priya-sharma",
+      "doctorName": "Dr. Priya Sharma",
+      "department": "Dermatology",
+      "date": "2026-10-30",
+      "timeSlot": "09:30 AM",
+      "status": "confirmed",
+      "type": "in_person",
+      "notes": "Skin rash on forehead for 2 weeks. Booked via CareCall Voice Assistant.",
+      "bookedVia": "ai_voice",
+      "createdAt": "2026-10-30T05:14:05.247Z",
+      "callId": "CALL-8841"
+    },
+    {
+      "id": "CC-2026-102",
+      "patientName": "Sujatha Krishna",
+      "patientPhone": "+91 94401 56789",
+      "patientEmail": "sujatha.k@outlook.com",
+      "doctorId": "doc-rajesh-varma",
+      "doctorName": "Dr. Rajesh Varma",
+      "department": "Cardiology",
+      "date": "2026-10-30",
+      "timeSlot": "11:30 AM",
+      "status": "confirmed",
+      "type": "in_person",
+      "notes": "Regular hypertension checkup & 6-month blood pressure review.",
+      "bookedVia": "web_portal",
+      "createdAt": "2026-10-29T09:14:05.247Z"
+    },
+    {
+      "id": "CC-2026-103",
+      "patientName": "Aarav Patel (Parent: Neha Patel)",
+      "patientPhone": "+91 97112 34567",
+      "patientEmail": "neha.patel@yahoo.com",
+      "doctorId": "doc-ananya-reddy",
+      "doctorName": "Dr. Ananya Reddy",
+      "department": "Pediatrics",
+      "date": "2026-10-30",
+      "timeSlot": "04:00 PM",
+      "status": "confirmed",
+      "type": "in_person",
+      "notes": "2-year routine vaccination and milestone evaluation.",
+      "bookedVia": "ai_voice",
+      "createdAt": "2026-10-30T01:14:05.247Z",
+      "callId": "CALL-8839"
+    },
+    {
+      "id": "CC-2026-104",
+      "patientName": "Kalyan Chakravarthy",
+      "patientPhone": "+91 98850 99881",
+      "patientEmail": "kalyan.c@gmail.com",
+      "doctorId": "doc-vikram-singh",
+      "doctorName": "Dr. Vikram Singh",
+      "department": "Orthopedics",
+      "date": "2026-10-31",
+      "timeSlot": "10:30 AM",
+      "status": "confirmed",
+      "type": "in_person",
+      "notes": "Right knee joint ache following morning jogging.",
+      "bookedVia": "ai_voice",
+      "createdAt": "2026-10-29T21:14:05.247Z",
+      "callId": "CALL-8835"
+    },
+    {
+      "id": "CC-2026-105",
+      "patientName": "Meenakshi Iyer",
+      "patientPhone": "+91 98200 44321",
+      "patientEmail": "m.iyer@gmail.com",
+      "doctorId": "doc-sunita-rao",
+      "doctorName": "Dr. Sunita Rao",
+      "department": "General Medicine",
+      "date": "2026-10-31",
+      "timeSlot": "10:00 AM",
+      "status": "confirmed",
+      "type": "in_person",
+      "notes": "HbA1c diabetes follow-up and prescription refill.",
+      "bookedVia": "web_portal",
+      "createdAt": "2026-10-29T03:14:05.247Z"
+    },
+    {
+      "id": "CC-2026-106",
+      "patientName": "Gaurav Kulkarni",
+      "patientPhone": "+91 99300 77112",
+      "patientEmail": "gkulkarni@gmail.com",
+      "doctorId": "doc-arjun-nair",
+      "doctorName": "Dr. Arjun Nair",
+      "department": "ENT",
+      "date": "2026-11-01",
+      "timeSlot": "03:00 PM",
+      "status": "pending",
+      "type": "in_person",
+      "notes": "Mild tinnitus and left ear blockage.",
+      "bookedVia": "staff",
+      "createdAt": "2026-10-29T15:14:05.248Z"
+    },
+    {
+      "id": "CC-2026-107",
+      "patientName": "Venkatesh Babu",
+      "patientPhone": "+91 98480 33441",
+      "patientEmail": "vbabu@gmail.com",
+      "doctorId": "doc-priya-sharma",
+      "doctorName": "Dr. Priya Sharma",
+      "department": "Dermatology",
+      "date": "2026-10-30",
+      "timeSlot": "02:30 PM",
+      "status": "completed",
+      "type": "in_person",
+      "notes": "Eczema review. Prescribed moisturizing regimen.",
+      "bookedVia": "ai_voice",
+      "createdAt": "2026-10-28T09:14:05.248Z"
+    }
+  ],
+  "patients": [
+    {
+      "id": "pat-1793353291881",
+      "name": "Caller Patient",
+      "phone": "+91 98765 43210",
+      "email": "callerpatient@example.com",
+      "age": 30,
+      "gender": "Other",
+      "bloodGroup": "B+",
+      "medicalHistory": [
+        "Dermatology"
+      ],
+      "lastVisit": "2026-10-30",
+      "totalVisits": 1
+    },
+    {
+      "id": "pat-101",
+      "name": "Rohan Mehra",
+      "phone": "+91 98490 12345",
+      "email": "rohan.mehra@gmail.com",
+      "age": 32,
+      "gender": "Male",
+      "bloodGroup": "B+",
+      "medicalHistory": [
+        "Mild dust allergy"
+      ],
+      "lastVisit": "2026-10-30",
+      "totalVisits": 2
+    },
+    {
+      "id": "pat-102",
+      "name": "Sujatha Krishna",
+      "phone": "+91 94401 56789",
+      "email": "sujatha.k@outlook.com",
+      "age": 56,
+      "gender": "Female",
+      "bloodGroup": "O+",
+      "medicalHistory": [
+        "Hypertension (Stage 1)",
+        "Osteoarthritis"
+      ],
+      "lastVisit": "2026-10-30",
+      "totalVisits": 5
+    },
+    {
+      "id": "pat-103",
+      "name": "Aarav Patel",
+      "phone": "+91 97112 34567",
+      "email": "neha.patel@yahoo.com",
+      "age": 2,
+      "gender": "Male",
+      "bloodGroup": "A+",
+      "medicalHistory": [
+        "None"
+      ],
+      "lastVisit": "2026-10-30",
+      "totalVisits": 4
+    },
+    {
+      "id": "pat-104",
+      "name": "Kalyan Chakravarthy",
+      "phone": "+91 98850 99881",
+      "email": "kalyan.c@gmail.com",
+      "age": 44,
+      "gender": "Male",
+      "bloodGroup": "AB+",
+      "medicalHistory": [
+        "Meniscus strain (2023)"
+      ],
+      "lastVisit": "2026-08-14",
+      "totalVisits": 3
+    },
+    {
+      "id": "pat-105",
+      "name": "Meenakshi Iyer",
+      "phone": "+91 98200 44321",
+      "email": "m.iyer@gmail.com",
+      "age": 61,
+      "gender": "Female",
+      "bloodGroup": "O-",
+      "medicalHistory": [
+        "Type 2 Diabetes",
+        "Dyslipidemia"
+      ],
+      "lastVisit": "2026-07-20",
+      "totalVisits": 8
+    }
+  ],
+  "calls": [
+    {
+      "id": "CALL-8841",
+      "callerName": "Rohan Mehra",
+      "callerPhone": "+91 98490 12345",
+      "timestamp": "2026-10-30T05:14:05.248Z",
+      "durationSeconds": 94,
+      "status": "completed",
+      "language": "en",
+      "intent": "book_appointment",
+      "sentiment": "positive",
+      "summary": "Caller requested an evening dermatology consultation for a skin rash. Dr. Priya Sharma slot at 09:30 AM confirmed.",
+      "appointmentId": "CC-2026-101",
+      "escalatedToStaff": false,
+      "channel": "browser_voice",
+      "transcripts": [
+        {
+          "id": "t-1",
+          "speaker": "ai",
+          "text": "Welcome to CityCare Clinic! How may I help you today?",
+          "timestamp": "00:02",
+          "language": "en"
+        },
+        {
+          "id": "t-2",
+          "speaker": "patient",
+          "text": "Hello, I want to book an appointment with a dermatologist for a skin allergy.",
+          "timestamp": "00:08",
+          "language": "en"
+        },
+        {
+          "id": "t-3",
+          "speaker": "ai",
+          "text": "Certainly! Dr. Priya Sharma is our chief dermatologist. She has slots available today at 09:30 AM and 05:30 PM. Which works best for you?",
+          "timestamp": "00:15",
+          "language": "en"
+        },
+        {
+          "id": "t-4",
+          "speaker": "patient",
+          "text": "09:30 AM is perfect.",
+          "timestamp": "00:20",
+          "language": "en"
+        },
+        {
+          "id": "t-5",
+          "speaker": "ai",
+          "text": "Got it. May I have your full name and contact number to confirm the booking?",
+          "timestamp": "00:26",
+          "language": "en"
+        },
+        {
+          "id": "t-6",
+          "speaker": "patient",
+          "text": "Rohan Mehra, phone number 98490 12345.",
+          "timestamp": "00:32",
+          "language": "en"
+        },
+        {
+          "id": "t-7",
+          "speaker": "ai",
+          "text": "Thank you Mr. Rohan! Your appointment with Dr. Priya Sharma is booked for today at 09:30 AM. Your booking ID is CC-2026-101. A confirmation SMS has been dispatched. Take care!",
+          "timestamp": "00:41",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "id": "CALL-8839",
+      "callerName": "Neha Patel",
+      "callerPhone": "+91 97112 34567",
+      "timestamp": "2026-10-30T01:14:05.248Z",
+      "durationSeconds": 112,
+      "status": "completed",
+      "language": "hi",
+      "intent": "book_appointment",
+      "sentiment": "positive",
+      "summary": "Caller spoke in Hindi requesting pediatrician for child vaccination. Confirmed with Dr. Ananya Reddy.",
+      "appointmentId": "CC-2026-103",
+      "escalatedToStaff": false,
+      "channel": "bolna_phone",
+      "transcripts": [
+        {
+          "id": "t-11",
+          "speaker": "ai",
+          "text": "सिटीकेयर क्लिनिक में आपका स्वागत है! मैं आपकी क्या सहायता कर सकती हूँ?",
+          "timestamp": "00:02",
+          "language": "hi"
+        },
+        {
+          "id": "t-12",
+          "speaker": "patient",
+          "text": "नमस्ते, मुझे अपने 2 साल के बच्चे के टीके के लिए बाल रोग विशेषज्ञ से मिलना है।",
+          "timestamp": "00:10",
+          "language": "hi"
+        },
+        {
+          "id": "t-13",
+          "speaker": "ai",
+          "text": "जी बिल्कुल! हमारे यहाँ डॉ. अनन्या रेड्डी उपलब्ध हैं। क्या आप आज शाम 4:00 बजे आ सकते हैं?",
+          "timestamp": "00:18",
+          "language": "hi"
+        },
+        {
+          "id": "t-14",
+          "speaker": "patient",
+          "text": "हाँ, 4:00 बजे का समय ठीक है।",
+          "timestamp": "00:24",
+          "language": "hi"
+        },
+        {
+          "id": "t-15",
+          "speaker": "ai",
+          "text": "बहुत खूब। आपका अपॉइंटमेंट डॉ. अनन्या रेड्डी के साथ आज शाम 4:00 बजे बुक कर दिया गया है। आपका बुकिंग आईडी CC-2026-103 है।",
+          "timestamp": "00:35",
+          "language": "hi"
+        }
+      ]
+    },
+    {
+      "id": "CALL-8837",
+      "callerName": "Venkata Satyanarayana",
+      "callerPhone": "+91 94900 88221",
+      "timestamp": "2026-10-29T19:14:05.248Z",
+      "durationSeconds": 78,
+      "status": "escalated",
+      "language": "te",
+      "intent": "emergency",
+      "sentiment": "urgent",
+      "summary": "Caller reported acute chest tightness and breathlessness. AI recognized red-flag symptoms, triggered emergency handoff to staff and advised immediate ER/108 call.",
+      "escalatedToStaff": true,
+      "escalationReason": "Emergency Red-Flag: Acute chest discomfort and dyspnea.",
+      "channel": "browser_voice",
+      "transcripts": [
+        {
+          "id": "t-21",
+          "speaker": "ai",
+          "text": "సిటీకేర్ క్లినిక్‌కి స్వాగతం! మీకు ఎలా సహాయపడగలను?",
+          "timestamp": "00:02",
+          "language": "te"
+        },
+        {
+          "id": "t-22",
+          "speaker": "patient",
+          "text": "నాకు ఛాతీలో చాలా నొప్పిగా ఉంది, ఊపిరి తీసుకోవడం కష్టంగా ఉంది. వెంటనే డాక్టర్ కావాలి.",
+          "timestamp": "00:12",
+          "language": "te"
+        },
+        {
+          "id": "t-23",
+          "speaker": "ai",
+          "text": "దయచేసి వినండి, ఇది అత్యవసర వైద్య పరిస్థితి కావచ్చు. నేను వెంటనే మా క్లినిక్ డ్యూటీ స్టాఫ్‌కి కాల్ బదిలీ చేస్తున్నాను. దయచేసి సమీపంలోని అత్యవసర సేవలు (108) కి కూడా వెంటనే కాల్ చేయండి!",
+          "timestamp": "00:22",
+          "language": "te"
+        }
+      ]
+    }
+  ],
+  "reminders": [
+    {
+      "id": "rem-1793353291881",
+      "appointmentId": "CC-2026-9937",
+      "patientName": "Caller Patient",
+      "patientPhone": "+91 98765 43210",
+      "doctorName": "Dr. Priya Sharma",
+      "appointmentDate": "2026-10-30",
+      "appointmentTime": "05:30 PM",
+      "status": "scheduled",
+      "channel": "bolna_voice_call"
+    },
+    {
+      "id": "rem-101",
+      "appointmentId": "CC-2026-101",
+      "patientName": "Rohan Mehra",
+      "patientPhone": "+91 98490 12345",
+      "doctorName": "Dr. Priya Sharma",
+      "appointmentDate": "2026-10-30",
+      "appointmentTime": "09:30 AM",
+      "status": "confirmed",
+      "channel": "bolna_voice_call",
+      "lastContactedAt": "2026-10-30T07:14:05.248Z",
+      "patientResponse": "Confirmed attendance via voice prompt."
+    },
+    {
+      "id": "rem-102",
+      "appointmentId": "CC-2026-104",
+      "patientName": "Kalyan Chakravarthy",
+      "patientPhone": "+91 98850 99881",
+      "doctorName": "Dr. Vikram Singh",
+      "appointmentDate": "2026-10-31",
+      "appointmentTime": "10:30 AM",
+      "status": "scheduled",
+      "channel": "bolna_voice_call"
+    },
+    {
+      "id": "rem-103",
+      "appointmentId": "CC-2026-105",
+      "patientName": "Meenakshi Iyer",
+      "patientPhone": "+91 98200 44321",
+      "doctorName": "Dr. Sunita Rao",
+      "appointmentDate": "2026-10-31",
+      "appointmentTime": "10:00 AM",
+      "status": "scheduled",
+      "channel": "bolna_voice_call"
+    },
+    {
+      "id": "rem-104",
+      "appointmentId": "CC-2026-106",
+      "patientName": "Gaurav Kulkarni",
+      "patientPhone": "+91 99300 77112",
+      "doctorName": "Dr. Arjun Nair",
+      "appointmentDate": "2026-11-01",
+      "appointmentTime": "03:00 PM",
+      "status": "scheduled",
+      "channel": "sms"
+    }
+  ],
+  "escalations": [
+    {
+      "patientName": "Voice Caller",
+      "patientPhone": "+91 98765 43210",
+      "urgency": "critical",
+      "reason": "Emergency symptoms reported by caller: I am having unbearable acute chest pain and difficulty breathing",
+      "status": "pending",
+      "notes": "Caller message: \"I am having unbearable acute chest pain and difficulty breathing\"",
+      "id": "esc-1793351731335",
+      "createdAt": "2026-10-30T09:15:31.335Z"
+    },
+    {
+      "id": "esc-1",
+      "callId": "CALL-8837",
+      "patientName": "Venkata Satyanarayana",
+      "patientPhone": "+91 94900 88221",
+      "urgency": "critical",
+      "reason": "Emergency Red-Flag: Acute chest discomfort and dyspnea reported in Telugu call.",
+      "status": "in_progress",
+      "assignedStaff": "Nurse Supervisor Anitha",
+      "createdAt": "2026-10-29T19:14:05.248Z",
+      "notes": "Contacted patient family; patient reached Emergency Room, currently under ECG monitoring."
+    },
+    {
+      "id": "esc-2",
+      "patientName": "Kavita Deshmukh",
+      "patientPhone": "+91 98234 11223",
+      "urgency": "high",
+      "reason": "Requested custom prescription adjustment for hypertension medication while doctor was unavailable.",
+      "status": "pending",
+      "createdAt": "2026-10-30T04:14:05.248Z",
+      "notes": "Patient advised to await callback from Dr. Rajesh Varma OPD assistant."
+    }
+  ],
+  "settings": {
+    "clinicName": "CityCare Multispecialty Clinic",
+    "tagline": "Your Clinic Never Misses a Call",
+    "address": "104 Healthcare Blvd, Jubilee Hills, Hyderabad 500033",
+    "phone": "+91 98765 43210",
+    "emergencyContact": "108 / +91 98765 99999",
+    "operatingHours": "Monday - Saturday: 8:00 AM - 8:30 PM | Sunday: 9:00 AM - 1:00 PM",
+    "bolnaApiKey": "",
+    "bolnaAgentId": "",
+    "bolnaPhoneNumber": "+1 415 800 2273",
+    "isDemoMode": true,
+    "aiVoiceGreetingEn": "Welcome to CityCare Clinic! How may I help you today?",
+    "aiVoiceGreetingHi": "सिटीकेयर क्लिनिक में आपका स्वागत है! मैं आपकी क्या सहायता कर सकती हूँ?",
+    "aiVoiceGreetingTe": "సిటీకేర్ క్లినిక్‌కి స్వాగతం! మీకు ఎలా సహాయపడగలను?"
+  }
+}
